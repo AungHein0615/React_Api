@@ -1,0 +1,15 @@
+const fetch = require('node-fetch');
+
+const url = 'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1';
+const options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZDU0MzEzN2I2YmZiOTgwOTViOTJjMGJkNDNiNTUyNyIsInN1YiI6IjY1MjM5ZDAxMDcyMTY2NDViOTE5NjhiMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E5tBVISBSsO5-l-8Y-JNH8JWUthZG3b3JuGT759ePM8'
+  }
+};
+
+fetch(url, options)
+  .then(res => res.json())
+  .then(json => console.log(json))
+  .catch(err => console.error('error:' + err));

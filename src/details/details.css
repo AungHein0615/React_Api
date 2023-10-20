@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.detailContainer {
+    margin-top: 3rem;
+    display: block;
+}
+
+.pcImg {
+    width: 15rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    object-fit: cover;
+}
+
+.imgField {
+    padding: 0;
+}
+
+.mdImg {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.md-cover {
+    height: 18rem;
+    position: relative;
+}
+
+.mdImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover {
+    height: 18rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(66, 66, 66, 0.548);
+}
+
+.detailImg {
+    width: 12rem;
+    height: 16rem;
+    position: absolute;
+    object-fit: cover;
+    bottom: -2rem;
+    left: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.detailDate  {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+.detailRating {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.detailTitle{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.detailOverView {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    text-align: justify;
+}
+
+.country{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.typename , .country , .language{
+    display: inline-block;
+}
+
+.type {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+
+.company , .country , .language {
+    font-size: 1rem;
+    padding-left: 0.5em;
+}
+
+.tag {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.country {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.company {
+    padding-top: 1rem;
+}
+
+.companyField  , .countryField , .languageField , .tagline{
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.logoImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 180px;
+    margin: 1rem;
+    object-fit: contain;
+}
+
+.companyCard {
+    display: inline-flex;
+}
+
+.similarMovie {
+    margin-top: 1rem;
+    color: gray;
+}
+
+.swiper {
+    width: 100%;
+    height: 13rem;
+}
+  
+.slice {
+    width: 12rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+  
+.slideImg {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    padding: 1rem;
+
+    transition: 0.5s all ease;
+}
+
+.slideImg:hover {
+    scale: 1.1;
+    transition: 0.5s all ease;
+}
